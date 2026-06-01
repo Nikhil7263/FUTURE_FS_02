@@ -1,0 +1,14 @@
+{
+  "name": "leadflow-crm",
+  "version": "1.0.0",
+  "description": "Full-stack CRM application for managing client leads",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm start"
+  },
+  "keywords": ["crm", "leads", "react", "nodejs", "mongodb"],
+  "author": "Your Name",
+  "license": "MIT"
+}
